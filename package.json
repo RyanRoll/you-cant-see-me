@@ -1,0 +1,23 @@
+{
+  "name": "you-cant-see-me",
+  "version": "0.0.1",
+  "description": "My time is now! der der der der ~ der der der der ~",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo 'pass'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanRoll/you-cant-see-me.git"
+  },
+  "keywords": [
+    "John",
+    "Cena"
+  ],
+  "author": "Me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyanRoll/you-cant-see-me/issues"
+  },
+  "homepage": "https://github.com/RyanRoll/you-cant-see-me#readme"
+}
