@@ -4,6 +4,9 @@
   "description": "My time is now! der der der der ~ der der der der ~",
   "main": "build/index.js",
   "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "npm run build:clear && babel src -d build",
+    "build:clear": "rm -rf build",
     "test": "echo 'pass'"
   },
   "repository": {
@@ -19,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/RyanRoll/you-cant-see-me/issues"
   },
-  "homepage": "https://github.com/RyanRoll/you-cant-see-me#readme"
+  "homepage": "https://github.com/RyanRoll/you-cant-see-me#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
 }
