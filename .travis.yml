@@ -2,3 +2,14 @@ language: node_js
 node_js:
   - lts/*
   - 13
+
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: Release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npm run semantic-release
