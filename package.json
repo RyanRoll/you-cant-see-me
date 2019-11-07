@@ -1,6 +1,6 @@
 {
   "name": "you-cant-see-me",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "My time is now! der der der der ~ der der der der ~",
   "main": "build/index.js",
   "scripts": {
