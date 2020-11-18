@@ -30,7 +30,7 @@
     "@babel/preset-env": "^7.7.1",
     "@semantic-release/changelog": "^3.0.5",
     "@semantic-release/git": "^7.0.18",
-    "semantic-release": "^15.13.30"
+    "semantic-release": "^17.2.3"
   },
   "babel": {
     "presets": [
